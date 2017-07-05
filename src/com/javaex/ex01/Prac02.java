@@ -19,10 +19,10 @@ public class Prac02 {
 									 
 								 }
 						 
-						 count++;//한 줄 입력될 때마다 1씩 증가시킨다. 
-						 
-						 System.out.println();//입력이 끝나면 엔터 
-				}
+					count++;//한 줄 입력될 때마다 1씩 증가시킨다. 
+							 
+					System.out.println();//입력이 끝나면 엔터 
+				 }
 			 
 		 }
 }
