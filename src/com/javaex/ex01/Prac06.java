@@ -39,6 +39,8 @@ public class Prac06 {
 			System.out.println(sum);
 		}
 		
+	sc.close();
+	
 	}
 	
 }
