@@ -18,7 +18,7 @@ public class Prac08 {
 				System.out.print("선택:");
 				int num = sc.nextInt();
 				
-				    if(num == 4) {
+				    if(num == 4) {//종료 버튼 눌렀을 때
 				    	
 				    	System.out.println("종료됩니다.");
 				    	 
@@ -26,33 +26,33 @@ public class Prac08 {
 				    	
 				    }
 				
-					switch(num) {
-					
-					case 1: 
-						
-						System.out.print("예금액:");
-						plus = sc.nextInt();
-						money = money + plus;
-						break;
-					
-					case 2:
-						
-						System.out.print("출금액:");
-						minus = sc.nextInt();
-						money = money - minus;
-						break;
-						
-					case 3:
-					    
-						System.out.print("잔고:");
-					    System.out.println(money);
-					    break;
-					    			 
-					default:
-						
-						break;
-					
-					}
+							switch(num) {
+							
+							case 1: 
+								
+								System.out.print("예금액:");
+								plus = sc.nextInt();
+								money = money + plus;
+								break;
+							
+							case 2:
+								
+								System.out.print("출금액:");
+								minus = sc.nextInt();
+								money = money - minus;
+								break;
+								
+							case 3:
+							    
+								System.out.print("잔고:");
+							    System.out.println(money);
+							    break;
+							    			 
+							default:
+								
+								break;
+							
+							}
 		
 		}
 		
