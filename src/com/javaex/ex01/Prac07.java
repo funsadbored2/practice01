@@ -41,8 +41,14 @@ public class Prac07 {
 									break;
 								} else {
 									
+									System.out.println("==============");
+									System.out.println("  숫자맞추기 게임  ");
+									System.out.println("==============");
+									
+									num = (int)(Math.random()*100)+1;
+									
 									continue;}
-						}
+						  }
 			}
 	   sc.close();	
 	}
