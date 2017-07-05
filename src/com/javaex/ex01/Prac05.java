@@ -20,7 +20,7 @@ public class Prac05 {
 		System.out.print("숫자:");
 		int num4 = sc.nextInt();
 		System.out.print("숫자:");
-		int num5 = sc.nextInt();
+		int num5 = sc.nextInt();//숫자 입력 받는 부분
 		
 		int high = num1;
 		
@@ -42,7 +42,7 @@ public class Prac05 {
 		if(high < num5) {
 			
 			high = num5;	
-		}
+		}//숫자 5개를 비교
 		
         System.out.println(high);
         
