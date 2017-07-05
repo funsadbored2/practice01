@@ -20,9 +20,12 @@ public class Prac05 {
 		System.out.print("숫자:");
 		int num4 = sc.nextInt();
 		System.out.print("숫자:");
-		int num5 = sc.nextInt();//숫자 입력 받는 부분
+		int high = sc.nextInt();//숫자 입력 받는 부분 //일단 마지막으로 입력받은 값을 임의로 high(최대값)로 잡음
 		
-		int high = num1;
+			if(high < num1) {
+				
+				high = num1;	
+			} 
 		
 			if(high < num2) {
 				
@@ -37,14 +40,9 @@ public class Prac05 {
 			if(high < num4) {
 				
 				high = num4;	
-			}
-	        
-			if(high < num5) {
-				
-				high = num5;	
 			}//숫자 5개를 비교
 		
-        System.out.println(high);
+        System.out.println("최대값은 " + high);
         
 		sc.close();
         
