@@ -11,6 +11,7 @@ public class Prac05 {
 		
 		System.out.println("숫자 5개를 입력하세요");
 		
+		/*//일일이 비교
 		System.out.print("숫자:");
 		int num1 = sc.nextInt();
 		System.out.print("숫자:");
@@ -41,8 +42,29 @@ public class Prac05 {
 				
 				high = num4;	
 			}//숫자 5개를 비교
+			
+			System.out.println("최대값은 " + high);
+            */	
 		
-        System.out.println("최대값은 " + high);
+		//바로 비교
+		
+		int high = 0;
+		
+		for(int i = 0; i < 5; i++) {
+			
+			System.out.print("숫자:");
+			int num = sc.nextInt();
+			
+				 if(num>high) {
+					 
+					 high = num;
+					 
+				 }
+			
+		}
+		
+		System.out.println("최대값은 " + high + "입니다.");
+        
         
 		sc.close();
         
