@@ -14,8 +14,10 @@ public class Prac04 {
                 
                 num++;
                 	 
-              }   	 
-        System.out.println();         
+              }  
+			 
+        System.out.println(); 
+        
 		}
 			
 	}
