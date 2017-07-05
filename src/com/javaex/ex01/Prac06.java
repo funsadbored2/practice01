@@ -14,24 +14,24 @@ public class Prac06 {
 
 		if(num%2 != 0){//홀수일 때
 
-			for(int hol = 1; hol <= num; hol++){
+			for(int odd = 1; odd <= num; odd++){
 	
-					if(hol%2 != 0){
+					if(odd%2 != 0){
 	
-					      sum = sum + hol;
+					      sum = sum + odd;
 	
 					} else {continue;}
 	
 			}
 	    System.out.println(sum);
 		}
-		else { //찍수일 때
+		else { //짝수일 때
 			
-			for(int jjak = 1; jjak <= num; jjak++) {
+			for(int even = 1; even <= num; even++) {
 				
-				if(jjak%2 == 0) {
+				if(even % 2 == 0) {
 					
-					sum = sum + jjak;
+					sum = sum + even;
 					
 				} else {continue;}
 				
