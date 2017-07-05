@@ -11,7 +11,6 @@ public class Prac07 {
 		System.out.println("==============");
 		
 		int num = (int)(Math.random()*100)+1;//랜덤 값
-		
 		Scanner sc = new Scanner(System.in);
 		
 			while(true){
