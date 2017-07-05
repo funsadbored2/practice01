@@ -6,7 +6,7 @@ public class Prac04 {
 		
 		for(int row = 1; row < 11; row++) { //세로10번
 			
-			int num = row;
+			 int num = row;
 			
 			 for(int line = 1; line < 11; line++) { //가로10번
 				
@@ -16,7 +16,7 @@ public class Prac04 {
                 	 
               }  
 			 
-        System.out.println(); 
+			 System.out.println(); 
         
 		}
 			

@@ -24,25 +24,25 @@ public class Prac05 {
 		
 		int high = num1;
 		
-		if(high < num2) {
+			if(high < num2) {
+				
+				high = num2;	
+			}
 			
-			high = num2;	
-		}
-		
-		if(high < num3) {
-			
-			high = num3;	
-		}
-        
-		if(high < num4) {
-			
-			high = num4;	
-		}
-        
-		if(high < num5) {
-			
-			high = num5;	
-		}//숫자 5개를 비교
+			if(high < num3) {
+				
+				high = num3;	
+			}
+	        
+			if(high < num4) {
+				
+				high = num4;	
+			}
+	        
+			if(high < num5) {
+				
+				high = num5;	
+			}//숫자 5개를 비교
 		
         System.out.println(high);
         

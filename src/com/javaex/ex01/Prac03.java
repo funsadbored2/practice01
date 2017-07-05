@@ -8,11 +8,9 @@ public class Prac03 {
 			
 				for(int dan = 2; dan < 10; dan++) {
 					
-					System.out.print(dan + "*" + num + "=" + dan*num + "	");
-					
-				}
+				System.out.print(dan + "*" + num + "=" + dan*num + "	");}
 			
-			System.out.println();
+		System.out.println();
 		}
 		
 	}
